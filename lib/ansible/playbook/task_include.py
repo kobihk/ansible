@@ -43,7 +43,7 @@ class TaskInclude(Task):
     VALID_ARGS = BASE.union(OTHER_ARGS)  # all valid args
     VALID_INCLUDE_KEYWORDS = frozenset(('action', 'args', 'debugger', 'ignore_errors', 'loop', 'loop_control',
                                         'loop_with', 'name', 'no_log', 'register', 'run_once', 'tags', 'vars',
-                                        'when'))
+                                        'when', 'delegate_to'))
 
     # =================================================================================
     # ATTRIBUTES
